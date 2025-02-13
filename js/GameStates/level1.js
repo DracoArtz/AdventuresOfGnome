@@ -9,7 +9,7 @@ var stage = new GameObject({width:canvas.width, height:canvas.height});
 var level = new GameObject({x:0,y:0});
 
 //Avatar
-var wiz = new GameObject({width:128, height:128, spriteData:playerData}).makeSprite(playerData)
+var wiz = new GameObject({width:128, height:200, spriteData:playerData}).makeSprite(playerData)
 wiz.force=1
 
 //The ground
@@ -187,7 +187,7 @@ gameStates[`level1`] = function()
 	wiz.vx *= friction.x
 	wiz.vy *= friction.y
 	wiz.x += Math.round(wiz.vx)
-	wiz.y += Math.round(wiz.vy)
+	wiz.y += Math.round(wiz.vy) 
 
 	let offset = {x:Math.round(wiz.vx), y:Math.round(wiz.vy)}
 	
