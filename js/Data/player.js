@@ -46,7 +46,7 @@ var playerData ={
 			[
 				{width:146, height:195, startX:11, startY:3066},
 				{width:146, height:194, startX:18, startY:3268},
-				{width:196, height:195, startX:10, startY:3462},
+				{width:146, height:195, startX:10, startY:3462},
 				{width:146, height:194, startX:18, startY:3664}
 
 			]
