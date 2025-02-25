@@ -14,6 +14,8 @@ menuBackground.img.src = "images/mrt.jpg"
 menuBackground.width=canvas.width
 menuBackground.height=canvas.height
 
+var music = document.getElementById("music")
+
 gameStates[`menu`] =function(){
 
 	//Makes the button clickable
@@ -23,6 +25,8 @@ gameStates[`menu`] =function(){
 		{
 			//Changes to the game state
 			gameStates.changeState(`level1`)
+			music.play();
+
 		}
 
 		//Hover Effect Graffic

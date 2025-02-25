@@ -16,7 +16,7 @@ Properties:
 					Number: startX | the horizontal starting point of the portion of image file to be rendered
 					Nunber: startY | the vertical starting point of the portion of image file to be rendered
 /*----------------------------------------------*/
-
+ 
 var playerData ={
 	info:{
 		src:`images/gnome.png`
