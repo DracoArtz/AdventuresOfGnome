@@ -91,6 +91,19 @@ var playerData ={
 
 				
 			]
+		},
+		projectile:
+		{
+			fps:10,
+			cycle:true,
+			//width:300,
+			frames:
+			[
+				{width:84, height:61, startX:26, startY:3872},
+				{width:84, height:61, startX:26, startY:3934},
+
+				
+			]
 		}
 	}
 		
