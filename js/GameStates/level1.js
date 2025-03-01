@@ -84,6 +84,7 @@ var shotTimer = 0;
 var shotDelay = 21;
 var currentBullet = 0;
 
+var splode = document.getElementById("splode")
 
 for(let i=0; i<100; i++)
 {
@@ -142,7 +143,9 @@ gameStates[`level1`] = function()
 		wiz.canJump = false;
 		wiz.vy = wiz.jumpHeight;
 		wiz.changeState(`jump`)
-		//sounds.play(`splode`,1)
+		sounds.play('splode', 0)
+
+		
 	}
 	shotTimer--;
 	if(shotTimer <=0)
