@@ -4,7 +4,9 @@ This file contains all of the code for the Main Menu
 
 var startButton = new GameObject();
 //startButton.img.src="images/mrt.jpg"
+startButton.y = 450
 startButton.width=200;
+startButton.height = 100
 startButton.hitBoxWidth=800
 console.log(startButton.collisionPoints.right)
 
@@ -32,16 +34,18 @@ gameStates[`menu`] =function(){
 		}
 
 		//Hover Effect Graffic
+		startButton.img.src = "images/button2.png"
 		startButton.color = `yellow`
 	}
 	else
 	{
 		//Default Button Graphic
+		startButton.img.src = "images/button1.png"
 		startButton.color = `red`
 	}
 	
 	menuBackground.drawStaticImage();
-	startButton.render()
+	startButton.drawStaticImage()
 }
 	
 	
