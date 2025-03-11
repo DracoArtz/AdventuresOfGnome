@@ -27,7 +27,7 @@ gameStates[`menu`] =function(){
 		{
 			//Changes to the game state
 			gameStates.changeState(`level1`)
-			music.volume = .07
+			music.volume = .5
 			music.play();
 			
 
