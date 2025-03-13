@@ -162,6 +162,7 @@ gameStates[`level1`] = function()
 		{
 			wiz.changeState(`attack`)
 			shotTimer = shotDelay
+			sounds.play('ooh', 0)
 			//console.log(`Boom`)
 
 			bullets[currentBullet].vx = 5*wiz.dir;
